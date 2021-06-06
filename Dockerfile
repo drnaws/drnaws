@@ -11,7 +11,7 @@ RUN apt-get update
 # Install dependencies:
 RUN apt-get install -y tzdata
 RUN apt-get  -y install apache2
-COPY /home/dharam/drnaws/index.html /var/www/html
+COPY /home/dharam/Desktop/drnaws/index.html /var/www/html
 
 # Define the Author
 MAINTAINER drnaws2020@gmail.com
